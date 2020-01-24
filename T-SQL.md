@@ -5,7 +5,29 @@ How to check SQL Server Version?
                  Copyright (C) 2017 Microsoft Corporation  Express Edition (64-bit) on 
                  Windows 10 Pro 10.0 <X64> (Build 18362: ) (Hypervisor)                       
 
-How to create Database?
-=======================
-Syntax: Create database <yourdatabasename>
-Example: Create database Stores
+How to create a Database?
+===========================
+**Syntax  :** CREATE DATABASE {your-database-name}
+**Example :** CREATE DATABASE Stores
+
+How to create a Schema?
+===========================
+**Syntax  :** CREATE SCHEMA {your-schema-name}
+**Example :** CREATE SCHEMA Production
+
+How to create a Table?
+===========================
+**Syntax  :** CREATE TABLE {Table-Name}
+              (
+                Column1 Type,
+                Column2 Type,
+                .
+                .
+                .
+                Columnn Type
+              );
+**Example :** CREATE TABLE Production.categories 
+              (
+               category_id INT,
+               category_name VARCHAR (255)
+              );
