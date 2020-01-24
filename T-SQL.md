@@ -7,13 +7,13 @@ How to check SQL Server Version?
 
 How to create a Database?
 ===========================
-**Syntax  :** CREATE DATABASE {your-database-name}
-...**Example :** CREATE DATABASE Stores
+**Syntax  :** CREATE DATABASE {your-database-name}⋅⋅
+**Example :** CREATE DATABASE Stores
 
 How to create a Schema?
 ===========================
-**Syntax  :** CREATE SCHEMA {your-schema-name}
-...**Example :** CREATE SCHEMA Production
+**Syntax  :** CREATE SCHEMA {your-schema-name}⋅⋅
+**Example :** CREATE SCHEMA Production
 
 How to create a Table?
 ===========================
@@ -25,8 +25,8 @@ How to create a Table?
                 .
                 .
                 Columnn Type
-              );
-...**Example :** CREATE TABLE Production.categories 
+              );⋅⋅
+**Example :** CREATE TABLE Production.categories 
               (
                category_id INT,
                category_name VARCHAR (255)
