@@ -13,3 +13,6 @@ SELECT CASE
 
 -- Replacing NULL value using COALESCE() function
 SELECT COALESCE(NULL, 'No Manager') as Manager
+
+
+-- NOTE: COALESCE() returns the first Non NULL value of a column in each row.
