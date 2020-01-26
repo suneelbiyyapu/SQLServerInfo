@@ -16,3 +16,5 @@ SELECT COALESCE(NULL, 'No Manager') as Manager
 
 
 -- NOTE: COALESCE() returns the first Non NULL value of a column in each row.
+SELECT Id, COALESCE(FirstName, MiddleName, LastName) AS Name
+FROM tblEmployee
