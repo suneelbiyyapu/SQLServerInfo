@@ -1,3 +1,5 @@
+-- This page has enough information about JOINS in SQL Server.
+
 Create table tblDepartment
 (
      ID int primary key,
