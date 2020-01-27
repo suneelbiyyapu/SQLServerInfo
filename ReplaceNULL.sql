@@ -5,11 +5,11 @@ SELECT ISNULL(NULL,'No Manager') as Manager
 
 -- Replacing NULL value using CASE Statement
 SELECT CASE 
-		 WHEN 'SUNEEL' IS NULL THEN 
-			'No Manager' 
-		ELSE 
-			'Manager' 
-			END as Manager
+	WHEN 'SUNEEL' IS NULL THEN 
+		'No Manager' 
+	ELSE 
+		'Manager' 
+	END as Manager
 
 -- Replacing NULL value using COALESCE() function
 SELECT COALESCE(NULL, 'No Manager') as Manager
